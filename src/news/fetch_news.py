@@ -1,17 +1,16 @@
 import requests
+import json
 from pathlib import Path
 import sys
-import json
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from config.settings import NEWSAPI_KEY
+from config.settings import NEWSAPI_KEY, BASE_URL
 
 class NewsAPI:
-    BASE_URL = "https://newsapi.org/v2/"
-
     def __init__(self):
         self.api_key = NEWSAPI_KEY
+        self.base_url = BASE_URL
 
         if not self.api_key:
             raise ValueError("NEWSAPI_KEY not found in environment variables.")
@@ -31,7 +30,7 @@ class NewsAPI:
 
         '''
         
-        endpoint = f"{self.BASE_URL}top-headlines"
+        endpoint = f"{self.base_url}top-headlines"
         params = {
             "country": "us",
             "category": "business",

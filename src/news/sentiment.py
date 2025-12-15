@@ -1,11 +1,11 @@
-from pathlib import Path
-import sys
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
 import torch
 import time
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
+from pathlib import Path
+import sys
 
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from config.settings import SENTIMENT_POSITIVE_THRESHOLD, SENTIMENT_NEGATIVE_THRESHOLD
 
