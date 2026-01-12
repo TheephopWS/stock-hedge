@@ -79,3 +79,24 @@ class TickerExtractor:
                 results.append({"ticker": ticker, "relevance": "medium"}) # or low
         
         return results
+    
+    def fetch_data(self, ticker: str, period: str = "1y"):
+        import yfinance as yf
+        try:
+            stock = yf.Ticker(ticker)
+            data = stock.history(period=period)
+            return data
+        except Exception as e:
+            print(f"Error fetching data for {ticker}: {e}")
+            return None
+        
+    def fetch_multiple_data(self, tickers: list[str]):
+        import yfinance as yf
+        data = yf.download(tickers, start="2023-01-01", auto_adjust=False)
+        
+        if data is not None:
+            return data['Adj Close']
+        
+        return
+
+        

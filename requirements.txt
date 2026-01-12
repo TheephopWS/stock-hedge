@@ -9,3 +9,6 @@ transformers
 torch
 schedule
 pandas
+statsmodels
+seaborn
+scikit-learn
