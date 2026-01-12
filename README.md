@@ -1,4 +1,4 @@
-# Stock Hedge - News Sentiment Analysis for Stockds and Options  trading
+# Stock Hedge - News Sentiment Analysis for Stocks and Options trading
 
 A Python-based system for analyzing financial news sentiment and calculating options hedging strategies using the Black-Scholes model. The project leverages AI-powered sentiment analysis (FinBERT) to classify market news as bullish or bearish signals.
 
@@ -12,7 +12,7 @@ This repository combines financial news analysis with quantitative options prici
 - **Options Pricing**: Black-Scholes model implementation for call/put pricing and Greeks calculation
 - **Delta Hedging**: Automated hedge position calculation based on option deltas
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -57,7 +57,7 @@ Edit `src/config/settings.py` to customize:
 - `SENTIMENT_POSITIVE_THRESHOLD`: Minimum confidence for bullish signal (default: 0.7)
 - `SENTIMENT_NEGATIVE_THRESHOLD`: Minimum confidence for bearish signal (default: 0.7)
 
-## 🤝 Contributing
+## Contributing
 
 This is an active project. Key areas for improvement:
 - Ticker extraction accuracy (see TODO in `tickers.py`)
