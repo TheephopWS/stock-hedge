@@ -40,7 +40,7 @@ This repository combines financial news analysis with quantitative options prici
 Execute the news sentiment analysis pipeline:
 
 ```bash
-python src/pipeline/orchestrator.py
+python src/pipeline/main.py
 ```
 
 This will:

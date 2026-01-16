@@ -1,0 +1,212 @@
+[
+    {
+        "title": "Ericsson announces proposed headcount reduction in Sweden - Ericsson",
+        "sentiment": "NEGATIVE",
+        "score": 0.9593244194984436,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "TSMC fourth-quarter profit beats estimates, soaring 35%, as AI chip demand stays strong - CNBC",
+        "sentiment": "POSITIVE",
+        "score": 0.9546912908554077,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "NCAA asks CFTC to suspend prediction markets - ESPN",
+        "sentiment": "NEGATIVE",
+        "score": 0.8211733102798462,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "Toyota Industries shares hit record high after Toyota Motor raises buyout offer to over $35 billion - CNBC",
+        "sentiment": "POSITIVE",
+        "score": 0.9408586025238037,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "Recalled Super Greens diet supplement powder sickens 45 with salmonella - CNN",
+        "sentiment": "NEGATIVE",
+        "score": 0.9276560544967651,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "Fact Sheet: President Donald J. Trump Directs Negotiations to Adjust Imports of Processed Critical Minerals and Their Derivative Products into the United States - The White House (.gov)",
+        "sentiment": "POSITIVE",
+        "score": 0.8099160194396973,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "Oil Prices Drop After Trump Cools Iran Tensions - The Wall Street Journal",
+        "sentiment": "NEGATIVE",
+        "score": 0.825825572013855,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "Treasury Yields, Dollar Decline Amid Global Tension - The Wall Street Journal",
+        "sentiment": "NEGATIVE",
+        "score": 0.7494054436683655,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "As President Trump Tackles Housing Affordability, Progress Emerges \u2014 and More Relief Is on the Horizon - The White House (.gov)",
+        "sentiment": "POSITIVE",
+        "score": 0.9146290421485901,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "Committing $9B Annual Payout; Strengthening Stewardship of Funds - Gates Foundation",
+        "sentiment": "POSITIVE",
+        "score": 0.7870728373527527,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "Here are the 46 Colorado gas stations that received diesel instead of regular unleaded - The Colorado Sun",
+        "sentiment": "NEGATIVE",
+        "score": 0.9488852024078369,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "Meta Lays Off 1,500 People in Metaverse Division - The Wall Street Journal",
+        "sentiment": "NEGATIVE",
+        "score": 0.7009707689285278,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "US stocks slide after bank earnings disappoint - Financial Times",
+        "sentiment": "NEGATIVE",
+        "score": 0.9668442010879517,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "Training large language models on narrow tasks can lead to broad misalignment - Nature",
+        "sentiment": "NEGATIVE",
+        "score": 0.9140287041664124,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "Chew on this: U.S. food prices are still up 19% since 2022 - CBS News",
+        "sentiment": "POSITIVE",
+        "score": 0.9512044191360474,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "NAR Existing-Home Sales Report Shows 5.1% Increase in December - National Association of REALTORS\u00ae",
+        "sentiment": "NEGATIVE",
+        "score": 0.961905300617218,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "Synopsys Enters Definitive Agreement with GlobalFoundries For Sale of Processor IP Solutions Business - Synopsys",
+        "sentiment": "POSITIVE",
+        "score": 0.8861879110336304,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "Wholesale inflation remained stubbornly higher in November - CNN",
+        "sentiment": "POSITIVE",
+        "score": 0.9257910251617432,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "Factbox-What Saks Global's bankruptcy filing reveals about its assets, creditors, financing - Yahoo Finance",
+        "sentiment": "NEGATIVE",
+        "score": 0.8629220724105835,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "United States Welcomes United Arab Emirates\u2019 Signing of Pax Silica Declaration - U.S. Department of State (.gov)",
+        "sentiment": "POSITIVE",
+        "score": 0.8823869228363037,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "Why the East Coast wants more of Trump\u2019s least-favorite energy source - CNN",
+        "sentiment": "NEGATIVE",
+        "score": 0.8390979170799255,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "CNBC Daily Open: Worries over Iran and Fed independence weigh on markets - CNBC",
+        "sentiment": "NEGATIVE",
+        "score": 0.9168206453323364,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "Gold, silver extend record-breaking rallies as uncertainty persists - CNBC",
+        "sentiment": "POSITIVE",
+        "score": 0.9252002239227295,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "China's trade surplus surges 20% to a record $1.2 trillion, even with Trump's tariffs - NPR",
+        "sentiment": "POSITIVE",
+        "score": 0.9347269535064697,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "IMF presses governments to step up support for workers displaced by AI - Financial Times",
+        "sentiment": "NEGATIVE",
+        "score": 0.9398580193519592,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "US approves sale of Nvidia's advanced AI chips to China - BBC",
+        "sentiment": "NEGATIVE",
+        "score": 0.9113876819610596,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "NASA, Department of Energy to Develop Lunar Surface Reactor by 2030 - NASA (.gov)",
+        "sentiment": "POSITIVE",
+        "score": 0.9088325500488281,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "US posts record $145 billion December deficit as outlays outpace receipts - Yahoo Finance",
+        "sentiment": "POSITIVE",
+        "score": 0.9327272176742554,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "Intel, AMD Get Overweight Upgrades as 2026 Server Chips Sell Out - Yahoo Finance",
+        "sentiment": "POSITIVE",
+        "score": 0.8613452911376953,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "European ammunition maker gears up for \u20ac30bn IPO - Financial Times",
+        "sentiment": "POSITIVE",
+        "score": 0.7993192672729492,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "Boeing beats Airbus order numbers for the first time this decade - Financial Times",
+        "sentiment": "POSITIVE",
+        "score": 0.9440823793411255,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "Bargain grocer Aldi seizes the moment and expands with consumers hurting - ABC News",
+        "sentiment": "POSITIVE",
+        "score": 0.786957859992981,
+        "signal": "BULLISH"
+    },
+    {
+        "title": "FTC Asks Court to Hold Payment Processors in Contempt for Systematically Violating 2015 Order - Federal Trade Commission (.gov)",
+        "sentiment": "NEGATIVE",
+        "score": 0.905243456363678,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "Epic sues health information network over nearly 300,000 illegally accessed records - statnews.com",
+        "sentiment": "NEGATIVE",
+        "score": 0.942880392074585,
+        "signal": "BEARISH"
+    },
+    {
+        "title": "Delta adds Boeing 787 Dreamliner to widebody fleet - Delta News Hub",
+        "sentiment": "POSITIVE",
+        "score": 0.8866903781890869,
+        "signal": "BULLISH"
+    }
+]

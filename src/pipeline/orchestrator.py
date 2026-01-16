@@ -1,4 +1,5 @@
 
+import json
 from pathlib import Path
 import sys
 
@@ -14,6 +15,7 @@ class NewsOrchestrator:
         self.processed_urls = set() # Keep to set for uniqueness
         self.bullish_articles = set()
         self.bearish_articles = set()
+        self.all_articles = list()
 
     def get_num_bullish_articles(self):
         return len(self.bullish_articles)
@@ -36,6 +38,12 @@ class NewsOrchestrator:
         # clear processed URLs to avoid memory bloat
         if len(self.processed_urls) > 500:
             self.processed_urls = set(list(self.processed_urls)[-500:])
+
+        output_path = Path(__file__).parent.parent / "data" / "daily_news.json"
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        with open(output_path, "w") as f:
+            json.dump(self.all_articles, f, indent=4)
 
         print("Cycle complete. Processed articles:", len(news_articles))
         print("Number of Bullish articles:", self.get_num_bullish_articles())
@@ -62,8 +70,9 @@ class NewsOrchestrator:
         print(f"Signal: {sentiment_result['signal']}")
         print("-" * 50)
 
-
-
-if __name__ == "__main__":
-    orchestrator = NewsOrchestrator()
-    orchestrator.run_cycle()
+        self.all_articles.append({
+            "title": title,
+            "sentiment": sentiment_result['label'].upper(),
+            "score": sentiment_result['score'],
+            "signal": sentiment_result['signal']
+        })
